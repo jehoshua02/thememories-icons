@@ -1,0 +1,27 @@
+{
+  "name": "thememories-icons",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Icons for http://thememories.com",
+  "main": "dist/*",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jehoshua02/thememories-icons.git"
+  },
+  "author": "Joshua Stoutenburg <jehoshua02@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/jehoshua02/thememories-icons/issues"
+  },
+  "homepage": "https://github.com/jehoshua02/thememories-icons",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-consolidate": "^0.1.2",
+    "gulp-iconfont": "^1.0.0",
+    "gulp-iconfont-css": "0.0.9",
+    "lodash": "^2.4.1",
+    "require-dir": "^0.1.0"
+  }
+}
