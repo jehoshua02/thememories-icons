@@ -19,7 +19,7 @@ gulp.task('font', function() {
       // CSS templating, e.g.
       console.log(codepoints, options);
 
-      gulp.src('gulp/util/font/reference.html')
+      gulp.src('gulp/util/font/index.html')
         .pipe(consolidate('lodash', { icons: codepoints }))
         .pipe(gulp.dest('dist/font'));
 
