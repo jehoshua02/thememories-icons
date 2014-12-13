@@ -58,35 +58,35 @@
   content: "\E007";
 }
 
-.icon--google:before {
+.icon--favicon:before {
   content: "\E008";
 }
 
-.icon--hamburger:before {
+.icon--google:before {
   content: "\E009";
 }
 
-.icon--leaf:before {
+.icon--hamburger:before {
   content: "\E00A";
 }
 
-.icon--magnify:before {
+.icon--leaf:before {
   content: "\E00B";
 }
 
-.icon--plus:before {
+.icon--magnify:before {
   content: "\E00C";
 }
 
-.icon--temple:before {
+.icon--plus:before {
   content: "\E00D";
 }
 
-.icon--tent:before {
+.icon--temple:before {
   content: "\E00E";
 }
 
-.icon--thememories:before {
+.icon--tent:before {
   content: "\E00F";
 }
 
