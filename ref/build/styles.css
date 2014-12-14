@@ -5,6 +5,23 @@
   src: url('bower_components/thememories-icons/dist/font/thememories-icons.eot?#iefix') format('eot'), url('bower_components/thememories-icons/dist/font/thememories-icons.woff') format('woff'), url('bower_components/thememories-icons/dist/font/thememories-icons.ttf') format('truetype'), url('bower_components/thememories-icons/dist/font/thememories-icons.svg#thememories-icons') format('svg'); }
 
 .icon {
+  display: inline-block;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-align: center; }
+  .icon:before {
+    font-family: "thememories-icons";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+    text-decoration: none;
+    text-transform: none; }
+
+.icon {
   height: 32px;
   width: 32px;
   font-size: 32px;
@@ -39,23 +56,6 @@
     width: 48px;
     font-size: 48px;
     line-height: 48px; }
-
-.icon {
-  display: inline-block;
-  outline: none;
-  border: none;
-  cursor: pointer;
-  text-align: center; }
-  .icon:before {
-    font-family: "thememories-icons";
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
-    text-decoration: none;
-    text-transform: none; }
 
 .icon--account-checked:before {
   content: '\e001'; }
