@@ -1,1 +1,1 @@
-require('gulp').task('build', ['font']);
+require('gulp').task('build', ['ref']);

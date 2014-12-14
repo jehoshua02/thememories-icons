@@ -1,0 +1,20 @@
+.anchor {
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+
+  &:before {
+    opacity: 0;
+    transition: opacity .3s;
+    content: "#";
+    position: absolute;
+    right: 100%;
+    margin-right: 10px;
+
+    *:hover > & {
+      opacity: 1;
+      display: inline-block;
+    }
+  }
+
+}

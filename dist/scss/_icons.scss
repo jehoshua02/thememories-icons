@@ -1,0 +1,100 @@
+$icons: (
+  
+    'account-checked': '\e001',
+  
+    'account': '\e002',
+  
+    'bike': '\e003',
+  
+    'camera': '\e004',
+  
+    'dog': '\e005',
+  
+    'envelope': '\e006',
+  
+    'facebook': '\e007',
+  
+    'favicon': '\e008',
+  
+    'google': '\e009',
+  
+    'hamburger': '\e00a',
+  
+    'leaf': '\e00b',
+  
+    'magnify': '\e00c',
+  
+    'plus': '\e00d',
+  
+    'temple': '\e00e',
+  
+    'tent': '\e00f',
+  
+    'twitter': '\e010',
+  
+);
+
+
+.icon--account-checked:before {
+  content: map-get($icons, 'account-checked');
+}
+
+.icon--account:before {
+  content: map-get($icons, 'account');
+}
+
+.icon--bike:before {
+  content: map-get($icons, 'bike');
+}
+
+.icon--camera:before {
+  content: map-get($icons, 'camera');
+}
+
+.icon--dog:before {
+  content: map-get($icons, 'dog');
+}
+
+.icon--envelope:before {
+  content: map-get($icons, 'envelope');
+}
+
+.icon--facebook:before {
+  content: map-get($icons, 'facebook');
+}
+
+.icon--favicon:before {
+  content: map-get($icons, 'favicon');
+}
+
+.icon--google:before {
+  content: map-get($icons, 'google');
+}
+
+.icon--hamburger:before {
+  content: map-get($icons, 'hamburger');
+}
+
+.icon--leaf:before {
+  content: map-get($icons, 'leaf');
+}
+
+.icon--magnify:before {
+  content: map-get($icons, 'magnify');
+}
+
+.icon--plus:before {
+  content: map-get($icons, 'plus');
+}
+
+.icon--temple:before {
+  content: map-get($icons, 'temple');
+}
+
+.icon--tent:before {
+  content: map-get($icons, 'tent');
+}
+
+.icon--twitter:before {
+  content: map-get($icons, 'twitter');
+}

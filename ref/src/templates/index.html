@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- these meta tags are important -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta http-equiv="x-ua-compatible" content="IE=edge" />
+
+  <title>The Memories Icon Font Reference</title>
+  <link href="styles.css" rel="stylesheet" />
+
+</head>
+<body>
+
+  <h1 class="primary-header">
+    <img class="logo" src="logo/thememories.svg" alt="The Memories" />
+    Icon Reference
+  </h1>
+
+  <div class="section">
+    <% _.each(colors, function(bg) { %>
+      <div class="box bg bg-<%= bg %>">
+        <% _.each(colors.slice(0).reverse(), function(fg) { %>
+          <% if (fg !== bg) { %>
+            <div class="fg-<%= fg %> page-wrap">
+              <% _.each(icons, function(icon) { %>
+                <span class="icon <%= icon.className %>"></span>
+              <% }); %>
+            </div>
+          <% } %>
+        <% }); %>
+      </div>
+    <% }); %>
+  </div>
+
+  <% _.each(icons, function(icon) { %>
+    <div class="section box page-wrap">
+      <h2>
+        <a class="anchor" id="<%= icon.name %>" href="#<%= icon.name %>"></a>
+        .<%= icon.className %>
+      </h2>
+      <span class="icon icon--xsmall <%= icon.className %>"></span>
+      <span class="icon icon--small <%= icon.className %>"></span>
+      <span class="icon icon--medium <%= icon.className %>"></span>
+      <span class="icon icon--large <%= icon.className %>"></span>
+      <span class="icon icon--xlarge <%= icon.className %>"></span>
+    </div>
+  <% }); %>
+
+</body>
+</html>

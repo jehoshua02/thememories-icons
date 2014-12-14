@@ -1,0 +1,33 @@
+{
+  "name": "thememories-icons",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://github.com/jehoshua02/thememories-icons",
+  "authors": [
+    "Joshua Stoutenburg <jehoshua02@gmail.com>"
+  ],
+  "description": "Icon Fonts for http://thememories.com website.",
+  "main": [
+    "dist/font",
+    "dist/scss"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "icon",
+    "font",
+    "thememories"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "gulp",
+    "gulpfile.js",
+    "src",
+    "ref"
+  ]
+}

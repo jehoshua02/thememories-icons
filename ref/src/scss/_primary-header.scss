@@ -1,0 +1,26 @@
+
+.primary-header {
+  border-top: 10px solid $gold;
+  background-color: $dark-gray;
+  background-image: linear-gradient(90deg, transparent 3px, #616162 3px);
+  background-size: 5px 5px;
+  padding: 30px 20px;
+  margin: 0;
+  color: $cream;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 10;
+  font-weight: lighter;
+  text-transform: lowercase;
+
+  .logo {
+    min-width: 280px;
+    max-width: 400px;
+    display: block;
+    margin: auto;
+  }
+
+  h1 {
+    margin: 0;
+  }
+}

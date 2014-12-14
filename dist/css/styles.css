@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "thememories-icons";
+  src: url('../font/thememories-icons.eot');
+  src: url('../font/thememories-icons.eot?#iefix') format('eot'), url('../font/thememories-icons.woff') format('woff'), url('../font/thememories-icons.ttf') format('truetype'), url('../font/thememories-icons.svg#thememories-icons') format('svg'); }
+
+.icon {
+  height: 32px;
+  width: 32px;
+  font-size: 32px;
+  line-height: 32px; }
+  .icon--default {
+    height: 32px;
+    width: 32px;
+    font-size: 32px;
+    line-height: 32px; }
+  .icon--xsmall {
+    height: 18px;
+    width: 18px;
+    font-size: 18px;
+    line-height: 18px; }
+  .icon--small {
+    height: 24px;
+    width: 24px;
+    font-size: 24px;
+    line-height: 24px; }
+  .icon--medium {
+    height: 32px;
+    width: 32px;
+    font-size: 32px;
+    line-height: 32px; }
+  .icon--large {
+    height: 40px;
+    width: 40px;
+    font-size: 40px;
+    line-height: 40px; }
+  .icon--xlarge {
+    height: 48px;
+    width: 48px;
+    font-size: 48px;
+    line-height: 48px; }
+
+.icon {
+  display: inline-block;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-align: center; }
+  .icon:before {
+    font-family: "thememories-icons";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+    text-decoration: none;
+    text-transform: none; }
+
+.icon--account-checked:before {
+  content: '\e001'; }
+
+.icon--account:before {
+  content: '\e002'; }
+
+.icon--bike:before {
+  content: '\e003'; }
+
+.icon--camera:before {
+  content: '\e004'; }
+
+.icon--dog:before {
+  content: '\e005'; }
+
+.icon--envelope:before {
+  content: '\e006'; }
+
+.icon--facebook:before {
+  content: '\e007'; }
+
+.icon--favicon:before {
+  content: '\e008'; }
+
+.icon--google:before {
+  content: '\e009'; }
+
+.icon--hamburger:before {
+  content: '\e00a'; }
+
+.icon--leaf:before {
+  content: '\e00b'; }
+
+.icon--magnify:before {
+  content: '\e00c'; }
+
+.icon--plus:before {
+  content: '\e00d'; }
+
+.icon--temple:before {
+  content: '\e00e'; }
+
+.icon--tent:before {
+  content: '\e00f'; }
+
+.icon--twitter:before {
+  content: '\e010'; }

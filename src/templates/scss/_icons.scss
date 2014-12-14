@@ -1,0 +1,11 @@
+$icons: (
+  <% _.each(icons, function(icon) { %>
+    '<%= icon.name %>': '\<%= icon.code.toString(16) %>',
+  <% }); %>
+);
+
+<% _.each(icons, function(icon) { %>
+.<%= icon.className %>:before {
+  content: map-get($icons, '<%= icon.name %>');
+}
+<% }); %>

@@ -1,0 +1,10 @@
+.box {
+  padding: 40px 20px;
+  text-align: center;
+
+  &.bg-light-gray,
+  &.bg-medium-gray,
+  &.bg-dark-gray {
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+  }
+}
