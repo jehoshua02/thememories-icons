@@ -201,12 +201,14 @@ h2 {
   color: inherit;
   position: relative; }
   .anchor:before {
-    display: none;
+    opacity: 0;
+    transition: opacity 0.3s;
     content: "#";
     position: absolute;
     right: 100%;
     margin-right: 10px; }
     *:hover > .anchor:before {
+      opacity: 1;
       display: inline-block; }
 
 .box {
