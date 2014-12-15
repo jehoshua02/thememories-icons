@@ -58,52 +58,52 @@
     line-height: 48px; }
 
 .icon--account-checked:before {
-  content: '\e001'; }
+  content: '\e601'; }
 
 .icon--account:before {
-  content: '\e002'; }
+  content: '\e602'; }
 
 .icon--bike:before {
-  content: '\e003'; }
+  content: '\e603'; }
 
 .icon--camera:before {
-  content: '\e004'; }
+  content: '\e604'; }
 
 .icon--dog:before {
-  content: '\e005'; }
+  content: '\e605'; }
 
 .icon--envelope:before {
-  content: '\e006'; }
+  content: '\e606'; }
 
 .icon--facebook:before {
-  content: '\e007'; }
+  content: '\e607'; }
 
 .icon--favicon:before {
-  content: '\e008'; }
+  content: '\e608'; }
 
 .icon--google:before {
-  content: '\e009'; }
+  content: '\e609'; }
 
 .icon--hamburger:before {
-  content: '\e00a'; }
+  content: '\e60a'; }
 
 .icon--leaf:before {
-  content: '\e00b'; }
+  content: '\e60b'; }
 
 .icon--magnify:before {
-  content: '\e00c'; }
+  content: '\e60c'; }
 
 .icon--plus:before {
-  content: '\e00d'; }
+  content: '\e60d'; }
 
 .icon--temple:before {
-  content: '\e00e'; }
+  content: '\e60e'; }
 
 .icon--tent:before {
-  content: '\e00f'; }
+  content: '\e60f'; }
 
 .icon--twitter:before {
-  content: '\e010'; }
+  content: '\e610'; }
 
 body {
   margin: 0;

@@ -6,12 +6,14 @@ gulp.task('dist/font', function() {
   var config = {
     src: './dist/svg/*.svg',
     dest: './dist/font',
-    name: 'thememories-icons'
+    name: 'thememories-icons',
+    start: 0xE601
   };
 
   return gulp.src(config.src)
     .pipe(font({
-      fontName: config.name
+      fontName: config.name,
+      startCodepoint: config.start
     }))
     .on('codepoints', function(codepoints, options) {
       saveCodepoints(codepoints);
