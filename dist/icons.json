@@ -3,96 +3,96 @@
     "name": "account-checked",
     "className": "icon--account-checked",
     "svg": "icon_account-checked",
-    "code": 57345
+    "code": 58881
   },
   {
     "name": "account",
     "className": "icon--account",
     "svg": "icon_account",
-    "code": 57346
+    "code": 58882
   },
   {
     "name": "bike",
     "className": "icon--bike",
     "svg": "icon_bike",
-    "code": 57347
+    "code": 58883
   },
   {
     "name": "camera",
     "className": "icon--camera",
     "svg": "icon_camera",
-    "code": 57348
+    "code": 58884
   },
   {
     "name": "dog",
     "className": "icon--dog",
     "svg": "icon_dog",
-    "code": 57349
+    "code": 58885
   },
   {
     "name": "envelope",
     "className": "icon--envelope",
     "svg": "icon_envelope",
-    "code": 57350
+    "code": 58886
   },
   {
     "name": "facebook",
     "className": "icon--facebook",
     "svg": "icon_facebook",
-    "code": 57351
+    "code": 58887
   },
   {
     "name": "favicon",
     "className": "icon--favicon",
     "svg": "icon_favicon",
-    "code": 57352
+    "code": 58888
   },
   {
     "name": "google",
     "className": "icon--google",
     "svg": "icon_google",
-    "code": 57353
+    "code": 58889
   },
   {
     "name": "hamburger",
     "className": "icon--hamburger",
     "svg": "icon_hamburger",
-    "code": 57354
+    "code": 58890
   },
   {
     "name": "leaf",
     "className": "icon--leaf",
     "svg": "icon_leaf",
-    "code": 57355
+    "code": 58891
   },
   {
     "name": "magnify",
     "className": "icon--magnify",
     "svg": "icon_magnify",
-    "code": 57356
+    "code": 58892
   },
   {
     "name": "plus",
     "className": "icon--plus",
     "svg": "icon_plus",
-    "code": 57357
+    "code": 58893
   },
   {
     "name": "temple",
     "className": "icon--temple",
     "svg": "icon_temple",
-    "code": 57358
+    "code": 58894
   },
   {
     "name": "tent",
     "className": "icon--tent",
     "svg": "icon_tent",
-    "code": 57359
+    "code": 58895
   },
   {
     "name": "twitter",
     "className": "icon--twitter",
     "svg": "icon_twitter",
-    "code": 57360
+    "code": 58896
   }
 ]
