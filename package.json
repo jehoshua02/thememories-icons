@@ -1,6 +1,6 @@
 {
   "name": "thememories-icons",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": true,
   "description": "Icons for http://thememories.com",
   "main": [
@@ -27,6 +27,7 @@
     "gulp-iconfont-css": "0.0.9",
     "gulp-sass": "^1.2.4",
     "gulp-util": "^3.0.1",
+    "jsonfile": "^2.0.0",
     "list-directory-contents": "0.0.3",
     "lodash": "^2.4.1",
     "require-dir": "^0.1.0"

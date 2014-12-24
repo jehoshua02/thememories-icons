@@ -1,5 +1,5 @@
 var gulp = require('gulp');
-var writeJson = require('./writeJson');
+var writeJson = require('jsonfile').writeFileSync;
 var template = require('gulp-consolidate');
 
 var saveCodepoints = function (codepoints) {

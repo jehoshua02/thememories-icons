@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var template = require('gulp-consolidate');
-var readJson = require('../../util/readJson');
+var readJson = require('jsonfile').readFileSync;
 
 gulp.task('ref/html', ['dist/font'], function () {
   var config = {
