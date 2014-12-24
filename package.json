@@ -24,11 +24,8 @@
     "gulp": "^3.8.10",
     "gulp-consolidate": "^0.1.2",
     "gulp-iconfont": "^1.0.0",
-    "gulp-iconfont-css": "0.0.9",
     "gulp-sass": "^1.2.4",
-    "gulp-util": "^3.0.1",
     "jsonfile": "^2.0.0",
-    "list-directory-contents": "0.0.3",
     "lodash": "^2.4.1",
     "require-dir": "^0.1.0"
   }
